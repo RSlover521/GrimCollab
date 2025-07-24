@@ -9,6 +9,7 @@ public class Xinchen {
 	    for (int i = a; i >= 0; i--) {
 	        System.out.println(i);
 	        System.out.println("Hi there, I'm watching you");
+	        System.out.println(a);
 	    }
 	}
 }
