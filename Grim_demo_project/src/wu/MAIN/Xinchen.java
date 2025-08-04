@@ -2,14 +2,14 @@ package wu.MAIN;
 
 public class Xinchen {
 	public static void main (String[] args) {
-		myMethod();
-	}
-	static void myMethod() {
-	    int a = 10;
-	    for (int i = a; i >= 0; i--) {
-	        System.out.println(i);
-	        System.out.println("Hi there, I'm watching you");
-	        System.out.println(a);
-	    }
+		myFunc(197, true);
+		}
+	public static void myFunc (int number, boolean test) {
+		if (number % 2 == 0) {
+			test = true;
+		} else {
+			test = false;
+		}
+		System.out.println(test);
 	}
 }
