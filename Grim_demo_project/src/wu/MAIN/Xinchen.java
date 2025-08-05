@@ -4,7 +4,7 @@ public class Xinchen {
 	public static void main (String[] args) {
 		myFunc(197, true);
 		
-		myFunc(521); // improved method call
+		System.out.println(myFunc(521)); // improved method call + printing it out
 		}
 	
 	public static void myFunc (int number, boolean test) { // well I meant it to return a boolean variable- Also only takes in one integer variable as your parameter
