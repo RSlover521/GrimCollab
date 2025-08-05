@@ -26,7 +26,7 @@ public class Xinchen {
 		if(num % 2 == 0) {
 			result = true;
 		} 
-		// since result is false at default (if num is not divisible at 2, the result will not change)
+		// since result is false at default (if num is not divisible by 2, the result will not change)
 		return result;
 	}
 }
