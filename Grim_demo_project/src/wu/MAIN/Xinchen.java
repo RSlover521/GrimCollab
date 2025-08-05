@@ -1,12 +1,15 @@
 package wu.MAIN;
 
 public class Xinchen {
-	public static void main(String[] args) {
-		// Indexes    0, 1, 2, 3, 4
-		int[] grim = {1, 2, 3, 4, 5};
-        int[] hehehe = new int[2];
-        for(int i : grim) {
-        	System.out.println(grim[i]);
-        }
+	public static void main (String[] args) {
+		myFunc(197, true);
+		}
+	public static void myFunc (int number, boolean test) {
+		if (number % 2 == 0) {
+			test = true;
+		} else {
+			test = false;
+		}
+		System.out.println(test);
 	}
 }
