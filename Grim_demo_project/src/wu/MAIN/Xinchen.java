@@ -1,15 +1,12 @@
 package wu.MAIN;
 
 public class Xinchen {
-	public static void main (String[] args) {
-		myMethod();
-	}
-	static void myMethod() {
-	    int a = 10;
-	    for (int i = a; i >= 0; i--) {
-	        System.out.println(i);
-	        System.out.println("Hi there, I'm watching you");
-	        System.out.println(a);
-	    }
+	public static void main(String[] args) {
+		// Indexes    0, 1, 2, 3, 4
+		int[] grim = {1, 2, 3, 4, 5};
+        int[] hehehe = new int[2];
+        for(int i : grim) {
+        	System.out.println(grim[i]);
+        }
 	}
 }
