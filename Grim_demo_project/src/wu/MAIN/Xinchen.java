@@ -19,7 +19,7 @@ public class Xinchen {
 	}
 	
 	
-	// here is the improved answer (yours is still correct, it still works, but it works differently than mine.
+	// here is the improved answer (yours is still correct, it still works, but it works differently than mine)
 	public static boolean myFunc(int num) {
 		boolean result = false;
 		// if num is divisible by 2, result = true
@@ -28,6 +28,5 @@ public class Xinchen {
 		} 
 		// since result is false at default (if num is not divisible at 2, the result will not change)
 		return result;
-		// P.S. your code still works, but this is just an improvement of it (less lines lmao)
 	}
 }
